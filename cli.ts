@@ -4,7 +4,7 @@ import { extractImages } from "./src/extractImages.ts";
 import * as path from "path/mod.ts";
 
 const app = new Command()
-  .name("yjm-dl")
+  .name("img-dl")
   .description("画像ダウンローダー");
 
 app.arguments("<url>")
